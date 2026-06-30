@@ -1,0 +1,60 @@
+# Core
+torch>=2.0.0
+transformers>=4.30.0
+langchain>=0.1.0
+langgraph>=0.0.20
+langchain-community>=0.0.10
+langchain-groq>=0.1.0  # Groq integration
+
+# Audio Processing
+openai-whisper>=20231117
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Document Processing
+pymupdf>=1.23.0
+python-docx>=1.1.0
+python-pptx>=0.6.21
+pypdf>=3.17.0
+markdown>=3.5.0
+beautifulsoup4>=4.12.0
+
+# Image Processing
+pillow>=10.0.0
+opencv-python>=4.8.0
+torchvision>=0.15.0
+
+# Image Models (Stable versions)
+transformers[torch]>=4.30.0
+
+# Embeddings & Models
+sentence-transformers>=2.2.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+
+# Vector Database
+qdrant-client>=1.7.0
+faiss-cpu>=1.7.4
+
+# Graph Database
+neo4j>=5.14.0
+
+# API & Frontend
+fastapi>=0.104.0
+uvicorn>=0.24.0
+gradio>=4.0.0
+streamlit>=1.29.0
+python-multipart>=0.0.6
+
+# Utilities
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.0
+jsonlines>=4.0.0
+pyyaml>=6.0
+httpx>=0.25.0
+
+# Search & Retrieval
+rank-bm25>=0.2.2
+nltk>=3.8.0

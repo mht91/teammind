@@ -1,0 +1,27 @@
+Collecting audiofile
+  Downloading audiofile-1.6.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting audeer (from audiofile)
+  Downloading audeer-2.4.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting audmath>=1.3.0 (from audiofile)
+  Downloading audmath-1.4.4-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: numpy in c:\users\lenovo\.pyenv\pyenv-win\versions\3.11.8\lib\site-packages (from audiofile) (2.4.6)
+Collecting soundfile>=0.12.1 (from audiofile)
+  Downloading soundfile-0.14.0-py2.py3-none-win_amd64.whl.metadata (18 kB)
+Collecting cffi>=1.0 (from soundfile>=0.12.1->audiofile)
+  Using cached cffi-2.0.0-cp311-cp311-win_amd64.whl.metadata (2.6 kB)
+Requirement already satisfied: typing-extensions in c:\users\lenovo\.pyenv\pyenv-win\versions\3.11.8\lib\site-packages (from soundfile>=0.12.1->audiofile) (4.15.0)
+Requirement already satisfied: tqdm in c:\users\lenovo\.pyenv\pyenv-win\versions\3.11.8\lib\site-packages (from audeer->audiofile) (4.68.2)
+Collecting pycparser (from cffi>=1.0->soundfile>=0.12.1->audiofile)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Requirement already satisfied: colorama in c:\users\lenovo\.pyenv\pyenv-win\versions\3.11.8\lib\site-packages (from tqdm->audeer->audiofile) (0.4.6)
+Downloading audiofile-1.6.1-py3-none-any.whl (14 kB)
+Downloading audmath-1.4.4-py3-none-any.whl (22 kB)
+Downloading soundfile-0.14.0-py2.py3-none-win_amd64.whl (1.0 MB)
+   ---------------------------------------- 1.0/1.0 MB 1.2 MB/s eta 0:00:00
+Downloading audeer-2.4.0-py3-none-any.whl (42 kB)
+   ---------------------------------------- 42.5/42.5 kB 413.8 kB/s eta 0:00:00
+Using cached cffi-2.0.0-cp311-cp311-win_amd64.whl (182 kB)
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+   ---------------------------------------- 48.2/48.2 kB 1.2 MB/s eta 0:00:00
+Installing collected packages: pycparser, audmath, cffi, audeer, soundfile, audiofile
+Successfully installed audeer-2.4.0 audiofile-1.6.1 audmath-1.4.4 cffi-2.0.0 pycparser-3.0 soundfile-0.14.0
